@@ -242,8 +242,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("• Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("• Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("• Channel", url=f"https://t.me/ZaraSupport"),
+                            InlineKeyboardButton("• Support", url=f"https://t.me/+R7D0nHLk8s9jODA1")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -320,7 +320,7 @@ async def vplay(c: Client, m: Message):
                     [
                         [
                             InlineKeyboardButton("• Channel", url=f"https://t.me/ZaraSupport"),
-                            InlineKeyboardButton("• Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("• Support", url=f"https://t.me/+R7D0nHLk8s9jODA1")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
