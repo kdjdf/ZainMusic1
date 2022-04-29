@@ -7,4 +7,4 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SUPPORT = getenv("SUPPORT", "CLASSY_NETWORK")
+SUPPORT = getenv("SUPPORT", "ZaraSupport")
