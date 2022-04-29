@@ -1,7 +1,7 @@
 {
-    "name": "Varina-music",
+    "name": "Evalina-Music",
     "logo": "",
-    "description": "varina-music allow you to stream music trought the telegram voice chat feature.",
+    "description": "evalina-music allow you to stream music trought the telegram voice chat feature.",
     "keywords": [
         "music", 
         "voice chat", 
@@ -24,18 +24,18 @@
         },
         "OWNER_NAME": {
             "description": "fill YOUR USERNAME WITHOUT '@' .",
-            "value": "s_e_l_f_i_s_h_x_7",
+            "value": "The_Death_Soul",
             "required": false
         },
         "ALIVE_NAME": {
             "description": "PUT YOUR BOT NAME .",
-            "value": "𝐕𝐀𝐑𝐈𝐍𝐀 𝗠𝗨𝗦𝗜𝗖",
+            "value": "𝗘𝗩𝗔𝗟𝗜𝗡𝗔 𝗠𝗨𝗦𝗜𝗖",
             "required": false
             
         },
          "BOT_NAME": {
             "description": "PUT YOUR BOT NAME.",
-            "value": "𝐕𝐀𝐑𝐈𝐍𝐀 𝗠𝗨𝗦𝗜𝗖",
+            "value": "Evelina_Musicbot",
             "required": true
         },
          "DURATION_LIMIT": {
@@ -45,12 +45,12 @@
         },
         "GROUP_SUPPORT": {
             "description": "PUT YOUR group username without @.",
-            "value": "INFINITY_BOTS_SUPPORT",
+            "value": "https://t.me/+R7D0nHLk8s9jODA1",
             "required": true
         },
         "UPDATES_CHANNEL": {
             "description": "PUT YOUR channel username without @.",
-            "value": "INFINITY_BOTZ",
+            "value": "Zara_Support",
             "required": true
         },
     
@@ -68,7 +68,7 @@
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space) .",
-            "value": "1914579692",
+            "value": "507498978 1716040619 5108747224",
             "required": true
         }
         
