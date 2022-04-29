@@ -131,8 +131,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton('⏭️', callback_data="skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/Techno_Trickop"),
-                      InlineKeyboardButton("• Group", url=f"https://t.me/TrickyAbhii_Op"),
+                      InlineKeyboardButton("🍸Cʜᴀɴɴᴇʟ🍸", url=f"https://t.me/ZaraSupport"),
+                      InlineKeyboardButton("🥂Group🥂", url=f"https://t.me/+R7D0nHLk8s9jODA1"),
                   ],[
                       InlineKeyboardButton("🗑 Close", callback_data="cls")],
                   ]
@@ -246,8 +246,8 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("~ Channel ~", url=f"https://t.me/Techno_Trickop"),
-                            InlineKeyboardButton("~ Support ~", url=f"https://t.me/TrickyAbhii_Op")
+                            InlineKeyboardButton("🦋Channel🦋", url=f"https://t.me/ZaraSupport"),
+                            InlineKeyboardButton("❄️Support❄️", url=f"https://t.me/The_Death_Soul")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -257,7 +257,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**𝙃𝙀𝙍𝙊𝙓 𝙈𝙐𝙎𝙄𝘾**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**𝙏𝙝𝙚𝘿𝙚𝙖𝙩𝙝𝙎𝙤𝙪𝙡**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
