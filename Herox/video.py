@@ -319,7 +319,7 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("• Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            InlineKeyboardButton("• Channel", url=f"https://t.me/ZaraSupport"),
                             InlineKeyboardButton("• Support", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
                         [
