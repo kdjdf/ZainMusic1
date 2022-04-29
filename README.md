@@ -20,7 +20,7 @@
   
 ### Heroku Deployment
   
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/The-Death-Soul/Zara-Music)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/The-Death-Soul/ZainMusic)
   
   
 ###  Okteto Deployment
