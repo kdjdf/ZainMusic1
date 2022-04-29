@@ -20,7 +20,7 @@
   
 ### Heroku Deployment
   
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/The-Death-Soul/Zara-Music"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/The-Death-Soul/Zara-Music)
   
   
 ###  Okteto Deployment
