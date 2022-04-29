@@ -51,36 +51,36 @@ async def _human_time_duration(seconds):
 )
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
-        photo=f"https://te.legra.ph/file/a5cb0f613ea5e23f535ce.jpg",
-        caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
+        photo=f"https://te.legra.ph/file/ec4402a5091250628534b.jpg",
+        caption=f"""ʜᴇʟʟᴏ ɪ ᴍ ᴇᴠᴀʟɪɴᴀ ᴍᴜsɪᴄ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @INFINITY_BOTS_SUPPORT**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @ZaraSupport**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⛓ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ",
+                        "🍹Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ🍹",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton(
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/classy_network"),
+                    InlineKeyboardButton("💧Oᴡɴᴇʀ", url=f"https://t.me/The_Alive_Soul"),
+                    InlineKeyboardButton("🩸Dᴇᴠᴇʟᴏᴘᴇʀ🩸", url=f"https://t.me/The_Death_Soul"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🍸Sᴜᴘᴘᴏʀᴛ🍸", url=f"https://t.me/+R7D0nHLk8s9jODA1"
                     ),
                     InlineKeyboardButton(
-                        "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "•🥂Uᴘᴅᴀᴛᴇs🥂", url=f"https://t.me/ZaraSupport"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://t.me/INFINITY_BOTS_SUPPORT"
+                        "💞ʟᴏᴠᴇ ᴠɪᴅᴇᴏs💞", url="https://t.me/Luv_Vids"
                     )
                 ],
             ]
@@ -99,9 +99,9 @@ async def start_group(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🍸Sᴜᴘᴘᴏʀᴛ🍸", url=f"https://t.me/+R7D0nHLk8s9jODA1"),
                 InlineKeyboardButton(
-                    "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "🥂Uᴘᴅᴀᴛᴇs🥂", url=f"https://t.me/ZaraSupport"
                 ),
             ]
         ]
@@ -135,7 +135,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 Bot Alive #𝑽𝑨𝑹𝑰𝑵𝑨_𝙈𝙪𝙨𝙞𝙘 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 Bot Alive #𝙀𝙫𝙖_𝙈𝙪𝙨𝙞𝙘 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
