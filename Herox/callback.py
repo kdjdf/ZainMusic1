@@ -104,7 +104,7 @@ async def cb_cmd(_, query: CallbackQuery):
                     InlineKeyboardButton("sᴏᴍᴇ ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅ", callback_data="cb_basic"),
                     InlineKeyboardButton("sᴏᴍᴇ ᴀᴅᴠᴀɴᴄᴇ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cb_advance"),
                 ],
-                [InlineKeyboardButton("sᴏᴍᴇ ғᴜɴ ᴄᴏᴍᴍᴀɴᴅ", callback_data="cb_fun")],
+                [InlineKeyboardButton("sᴏᴍᴇ sᴘᴇᴄɪᴀʟ ᴄᴏᴍᴍᴀɴᴅ", callback_data="cb_fun")],
                
                 [InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_start")],
             ]
@@ -155,7 +155,7 @@ async def cb_advance(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_fun"))
 async def cb_fun(_, query: CallbackQuery):
     await query.edit_message_text(  
-        f"""𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨
+        f"""𝙎𝙥𝙚𝙘𝙞𝙖𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨
 • `/truth` 🌝
 • `/dare`  🌝
 • `/wish`    🌝
