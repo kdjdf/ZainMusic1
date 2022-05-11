@@ -3,7 +3,7 @@ from pyrogram import Client
 from config import BOT_USERNAME
 from SJM.filters import command
 
-@Client.on_message(command(["abhi", f"abhi@{BOT_USERNAME}"]))
+@Client.on_message(command(["wish", f"wish@{BOT_USERNAME}"]))
 async def asupan(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/asupan/ptl").json()
@@ -13,24 +13,24 @@ async def asupan(client, message):
         await message.reply_text("`Something went wrong LOL...`")
 
 
-@Client.on_message(command(["sjm", f"sjm@{BOT_USERNAME}"]))
+@Client.on_message(command(["zain", f"zain@{BOT_USERNAME}"]))
 async def wibu(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/asupan/wibu").json()
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`Something went wrong LOL...`")
+        await message.reply_text("`❤️𝗭𝗮𝗶𝗻 ❣️ 𝗭𝗮𝗿𝗮❤️...`")
 
 
-@Client.on_message(command(["tricky", f"tricky@{BOT_USERNAME}"]))
+@Client.on_message(command(["zara", f"zara@{BOT_USERNAME}"]))
 async def chika(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/chika").json()
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`Something went wrong LOL...`")
+        await message.reply_text("`❤️𝗭𝗮𝗿𝗮 ❣️ 𝗭𝗮𝗶𝗻❤️...`")
 
 
 @Client.on_message(command(["truth", f"truth@{BOT_USERNAME}"]))
