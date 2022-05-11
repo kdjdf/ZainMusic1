@@ -51,35 +51,35 @@ async def cbmenu(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_start"))
 async def cb_start(_, query: CallbackQuery):
     await query.edit_message_text(
-       f"""ʜᴇʟʟᴏ [✨](https://te.legra.ph/file/a5cb0f613ea5e23f535ce.jpg) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
+       f"""ʜᴇʟʟᴏ [✨](https://te.legra.ph/file/55a981b37bf405bd76fd0.jpg) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @INFINITY_BOTS_SUPPORT**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Death_Soul_Federation 💐**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⛓ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ",
+                        "💠Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ💠",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton(
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/CLASSY_NETWORK"),
+                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/x_ALIVE_SOUL_x"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/x_DEAD_SOUL_x"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/https://t.me/+R7D0nHLk8s9jODA1"
                     ),
                     InlineKeyboardButton(
-                        "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/ZaraSupport"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• CHAT GROUP •", url="https://t.me/secretgroupc"
+                        "• CHAT GROUP •", url="https://t.me/https://t.me/+R7D0nHLk8s9jODA1"
                     )
                 ],
             ]
@@ -97,7 +97,7 @@ async def cb_cmd(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✨ **Hello !**
 » **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴs 🔭 !**
-⚡ Powered by [C L A S S Y](https://t.me/CLASSY_NETWORK)""",
+⚡ Developed by [ℤ𝔸𝕀ℕ](https://t.me/x_DEAD_SOUL_x)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -127,7 +127,7 @@ async def cb_basic(_, query: CallbackQuery):
 •  `/mute` - mute assistant in vc
 •  `/lyrics (song name)`
 
-⚡ Powered By [C L A S S Y](https://t.me/CLASSY_NETWORK) .""",
+⚡ Developed By [ℤ𝔸𝕀ℕ](https://t.me/x_DEAD_SOUL_x) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -145,7 +145,7 @@ async def cb_advance(_, query: CallbackQuery):
 • `/rmd` clean all downloads
 • `/clean` - clear storage 
 
-⚡ Powered By [C L A S S Y](https://t.me/CLASSY_NETWORK) .""",
+⚡ Developed By [ℤ𝔸𝕀ℕ](https://t.me/x_DEAD_SOUL_x) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -158,11 +158,11 @@ async def cb_fun(_, query: CallbackQuery):
         f"""𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨
 • `/truth` 🌝
 • `/dare`  🌝
-• `/sjm`    🌝
-• `/abhi`   🌝
-• `/tricky` 🌝   
+• `/wish`    🌝
+• `/zain`   🌝
+• `/zara` 🌝   
 
-⚡ Powered By [C L A S S Y](https://t.me/CLASSY_NETWORK) .""",
+⚡ Developed By [ℤ𝔸𝕀ℕ](https://t.me/x_DEAD_SOUL_x) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -179,5 +179,5 @@ async def cb_fun(_, query: CallbackQuery):
 async def close(_, query: CallbackQuery):
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("ɴɪᴋᴀʟ ʙsᴅᴋ ᴛᴜ ᴀᴅᴍɪɴ ɴᴀʜɪ ʜᴀɪ ɢʀᴘ ᴋᴀ !", show_alert=True)
+        return await query.answer("ɴɪᴋᴀʟ ʙᴇ ᴛᴜ ᴀᴅᴍɪɴ ɴᴀʜɪ ʜᴀɪ ɢʀᴏᴜᴘ ᴋᴀ !", show_alert=True)
     await query.message.delete()
