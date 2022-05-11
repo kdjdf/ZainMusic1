@@ -52,7 +52,7 @@ async def _human_time_duration(seconds):
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
         photo=f"https://te.legra.ph/file/ec4402a5091250628534b.jpg",
-        caption=f"""ʜᴇʟʟᴏ ɪ ᴍ ᴇᴠᴀʟɪɴᴀ ᴍᴜsɪᴄ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
+        caption=f"""ʜᴇʟʟᴏ ɪ ᴍ ℤ𝕒𝕣𝕒 𝕃𝕚𝕟𝕒✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
  **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @ZaraSupport**""",
@@ -67,8 +67,8 @@ async def start_private(client: Client, message: Message):
                 [InlineKeyboardButton(
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("💧Oᴡɴᴇʀ", url=f"https://t.me/The_Alive_Soul"),
-                    InlineKeyboardButton("🩸Dᴇᴠᴇʟᴏᴘᴇʀ🩸", url=f"https://t.me/The_Death_Soul"),
+                    InlineKeyboardButton("💧Oᴡɴᴇʀ", url=f"https://t.me/For_Chanel_only"),
+                    InlineKeyboardButton("🩸Dᴇᴠᴇʟᴏᴘᴇʀ🩸", url=f"https://t.me/x_DEAD_SOUL_x"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -135,7 +135,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 Bot Alive #𝙀𝙫𝙖_𝙈𝙪𝙨𝙞𝙘 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 Bot Alive #ℤ𝕒𝕚𝕟❤️ℤ𝕒𝕣𝕒 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
