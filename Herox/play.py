@@ -241,13 +241,13 @@ async def play(c: Client, m: Message):
         if len(m.command) < 2:
          await m.reply_photo(
                      photo=f"{IMG_5}",
-                    caption="💬**Usage: /play Give a Title Song To Play Music or join @aboutez**"
+                    caption="💬**Usage: /play & /vplay Give a Title Song To Play Music or Video 💞**"
                     ,
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🦋Channel🦋", url=f"https://t.me/ZaraSupport"),
-                            InlineKeyboardButton("❄️Support❄️", url=f"https://t.me/The_Death_Soul")
+                            InlineKeyboardButton("💧Channel💧", url=f"https://t.me/ZaraSupport"),
+                            InlineKeyboardButton("🩸Support🩸", url=f"https://t.me/+R7D0nHLk8s9jODA1")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
