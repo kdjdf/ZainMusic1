@@ -41,13 +41,13 @@ OMFO Gimme a star and follow me
   
   
   
-### Noob Developers 
+### Developers 
   
- <a href="https://github.com/The-Death-Soul"><img src="https://img.shields.io/badge/pro%20 Anonymous-ReD.svg?style=for-the-badge&logo=Python"></a> 
+ <a href="https://github.com/The-Death-Soul"><img src="https://img.shields.io/badge/pro%20 Soul-ReD.svg?style=for-the-badge&logo=Python"></a> 
 
-<a href="https://t.me/x_The_Dead_Soul_x"><img src="https://img.shields.io/badge/Noob%20 Herox-ReD.svg?style=for-the-badge&logo=Python"></a> 
+<a href="https://t.me/x_The_Dead_Soul_x"><img src="https://img.shields.io/badge/Love%20 Zara-ReD.svg?style=for-the-badge&logo=Python"></a> 
   
-  <a href="https://t.me/The_Death_Soul"><img src="https://img.shields.io/badge/Piro%20 Abhishek-Green.svg?style=for-the-badge&logo=Python"></a>
+  <a href="https://t.me/The_Death_Soul"><img src="https://img.shields.io/badge/Zain%20 Hussain-Green.svg?style=for-the-badge&logo=Python"></a>
 ## Support & Updates 
 <a href="https://t.me/The_Death_Soul"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/ZaraSupport"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
   
